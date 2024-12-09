@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Business</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lobster&family=Raleway:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        body {
+            background-image: url(images/planeta.jpg);
+            background-size: cover;
+        }
+
+        h1 {
+            color: lightgreen;
+            font-size: 2em;
+        }
+
+        h2 {
+            color: white;
+            font-size: 1.25em;
+        }
+
+
+        header {
+            display: flex;
+            background-image: url(images/fondo.jpg);
+            height: 300px;
+            background-size: 100% 100%;
+        }
+
+        #tituloscabecera {
+            text-align: center;
+            margin: auto;
+            font-family: Lobster;
+        }
+
+        nav {
+            display: flex;
+            padding: 15px;
+            justify-content: space-around;
+            background-color: red;
+            text-align: center;            
+            height: 33%;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            text-align: center;
+        }
+
+        nav a:hover {
+            color: yellow;
+            font-weight: bold;
+        }
+
+
+        article {
+            height: 105px;
+            padding: 10px;
+        }
+
+        section#nuestros-proyectos {
+            height: 300px;
+        }
+
+        section#nuestros-proyectos article{
+            height: 50%;
+            padding: 20px;
+        }
+
+
+        div#bordeverde {
+            border: 4px solid green;
+            border-radius: 15px;
+            height: 100px;
+        }
+
+        div#bordeverde img {
+            height: 100%;
+            float: right;
+            margin-left: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        p {
+            text-align: justify;
+
+        }
+
+        #subtitulo {
+            font-style: italic;
+            font-size: 2em;
+            color: lightgreen;
+            padding: 10px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: grey;
+            margin-top: 32px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <section id="tituloscabecera">
+            <h1>Eco-Business</h1>
+            <h2>Rentabilidad y Medio Ambiente</h2>
+        </section>
+    </header>
+    <nav>
+        <a href="" class="opcion">Quiénes Somos</a>
+        <a href="" class="opcion">Contratación</a>
+        <a href="" class="opcion">Formación</a>
+    </nav>
+    <main>
+        <h2 id="subtitulo">Nuestros Proyectos</h2>
+        <section id="nuestros-proyectos">
+            <article>
+                <div id="bordeverde">
+                    <img src="images/girasol.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias animi illum maxime unde
+                        nostrum rem expedita. Sunt, dolore voluptates aut unde maiores eligendi ullam ex reiciendis
+                        tempore doloribus autem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ratione accusantium illo sint eum cumque, dignissimos libero animi dolorum error ipsum, corrupti fugit repellat vero voluptate reiciendis magni similique. Deleniti.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <div id="bordeverde">
+                    <img src="images/girasol.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias animi illum maxime unde
+                        nostrum rem expedita. Sunt, dolore voluptates aut unde maiores eligendi ullam ex reiciendis
+                        tempore doloribus autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quibusdam, id quod voluptatibus delectus adipisci vero asperiores eos aperiam aspernatur ullam vitae, iusto amet sint a repudiandae! Voluptate, repellendus et.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <p> &copy; 2024 IES Juan Bosco</p>
+        </footer>
+    </main>
+</body>
+
+</html>
